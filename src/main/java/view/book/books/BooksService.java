@@ -51,7 +51,7 @@ public class BooksService {
 
             return getImageUrl(fileName);
         } catch (IOException e) {
-            throw new RuntimeException("Failed to upload image", e);
+            throw new RuntimeException("Failed to upload image ...", e);
         }
     }
 
