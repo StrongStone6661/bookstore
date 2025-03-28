@@ -38,8 +38,8 @@ jobs:
       - name: Build and tag Docker image
         run: |
           docker build -t book-viewer-repo .
-          docker tag book-viewer-repo:latest 195275642256.dkr.ecr.eu-west-1.amazonaws.com/book-viewer-repo:latest
+          docker tag book-viewer-repo:latest 412381768295.dkr.ecr.eu-central-1.amazonaws.com/book-viewer-repo:latest
 
       - name: Push image to Amazon ECR
         run: |
-          docker push 195275642256.dkr.ecr.eu-west-1.amazonaws.com/book-viewer-repo:latest
+          docker push 412381768295.dkr.ecr.eu-central-1.amazonaws.com/book-viewer-repo:latest
