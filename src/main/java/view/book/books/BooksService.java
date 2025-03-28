@@ -27,7 +27,7 @@ public class BooksService {
 
     private final BooksRepository bookRepository;
     private final S3Client s3Client;
-    private static final String bucketName = "book-viewer-v2";
+    private static final String bucketName = "book-viewer-v20";
     private static final String AWS_REGION = "eu-central-1";
 
     public BooksService(BooksRepository bookRepository) {
